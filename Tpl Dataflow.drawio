@@ -1,0 +1,169 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
+  <diagram name="Page-1" id="6d-vporN01eibrJKGm4v">
+    <mxGraphModel dx="2278" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EtaHHnHpGLykDwEdvNow-35" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-37" y="169.99857142857144" width="887.4620404115211" height="500.00142857142856" as="geometry" />
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-24" value="" style="group" parent="EtaHHnHpGLykDwEdvNow-35" vertex="1" connectable="0">
+          <mxGeometry y="130.00142857142856" width="840" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-1" value="PRODUCT COMP" style="rounded=1;whiteSpace=wrap;html=1;" parent="EtaHHnHpGLykDwEdvNow-24" vertex="1">
+          <mxGeometry x="446.2977572410684" y="52.85714285714286" width="162.29009354220668" height="63.42857142857143" as="geometry" />
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-2" value="MAIN" style="ellipse;whiteSpace=wrap;html=1;" parent="EtaHHnHpGLykDwEdvNow-24" vertex="1">
+          <mxGeometry x="135.24174461850555" y="179.71428571428572" width="121.71757015665501" height="42.285714285714285" as="geometry" />
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-5" value="PERSISTENCE" style="rounded=1;whiteSpace=wrap;html=1;" parent="EtaHHnHpGLykDwEdvNow-24" vertex="1">
+          <mxGeometry x="453.05984447199364" y="158.57142857142858" width="162.29009354220668" height="63.42857142857143" as="geometry" />
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-6" value="API CLIENT&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="EtaHHnHpGLykDwEdvNow-24" vertex="1">
+          <mxGeometry x="453.05984447199364" y="285.42857142857144" width="162.29009354220668" height="63.42857142857143" as="geometry" />
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-9" value="Other Api" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" parent="EtaHHnHpGLykDwEdvNow-24" vertex="1">
+          <mxGeometry x="780.0028975543783" y="296" width="117.45914285714287" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="EtaHHnHpGLykDwEdvNow-24" source="EtaHHnHpGLykDwEdvNow-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="316.46568240730306" y="105.71428571428572" as="sourcePoint" />
+            <mxPoint x="446.2977572410684" y="95.14285714285714" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="140" />
+              <mxPoint x="365.152710469965" y="95.14285714285714" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-16" value="&lt;span style=&quot;text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Get Product Details&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EtaHHnHpGLykDwEdvNow-12" vertex="1" connectable="0">
+          <mxGeometry x="-0.075" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="EtaHHnHpGLykDwEdvNow-24" target="EtaHHnHpGLykDwEdvNow-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="256.9593147751606" y="200.85714285714286" as="sourcePoint" />
+            <mxPoint x="568.0153273977234" y="380.57142857142856" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-25" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;Save Product details&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EtaHHnHpGLykDwEdvNow-20" vertex="1" connectable="0">
+          <mxGeometry x="0.0601" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="EtaHHnHpGLykDwEdvNow-24" source="EtaHHnHpGLykDwEdvNow-2" target="EtaHHnHpGLykDwEdvNow-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="593.7112588752394" y="243.14285714285714" as="sourcePoint" />
+            <mxPoint x="477.4033585033247" y="315.0285714285714" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="284.0076636988617" y="264.2857142857143" />
+              <mxPoint x="351.62853600811445" y="296" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-26" value="&lt;font style=&quot;font-size: 13px; background-color: rgb(236, 236, 236);&quot;&gt;Post Product Details&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EtaHHnHpGLykDwEdvNow-21" vertex="1" connectable="0">
+          <mxGeometry x="0.0747" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.009;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.633;exitDx=0;exitDy=0;exitPerimeter=0;" parent="EtaHHnHpGLykDwEdvNow-24" source="EtaHHnHpGLykDwEdvNow-6" target="EtaHHnHpGLykDwEdvNow-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500.3944550884706" y="433.42857142857144" as="sourcePoint" />
+            <mxPoint x="568.0153273977234" y="380.57142857142856" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="EtaHHnHpGLykDwEdvNow-24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="-20" as="sourcePoint" />
+            <mxPoint x="650" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-4" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;" parent="EtaHHnHpGLykDwEdvNow-35" vertex="1">
+          <mxGeometry x="790" width="67.62087230925277" height="63.42857142857143" as="geometry" />
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-30" value="ID READER" style="rounded=1;whiteSpace=wrap;html=1;" parent="EtaHHnHpGLykDwEdvNow-35" vertex="1">
+          <mxGeometry x="449.9977572410685" y="63.428571428571416" width="162.29009354220668" height="63.42857142857143" as="geometry" />
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="EtaHHnHpGLykDwEdvNow-35" source="EtaHHnHpGLykDwEdvNow-30" target="EtaHHnHpGLykDwEdvNow-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="562.29" y="50.00142857142856" as="sourcePoint" />
+            <mxPoint x="612.29" y="0.0014285714285620088" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="EtaHHnHpGLykDwEdvNow-35" source="EtaHHnHpGLykDwEdvNow-2" target="EtaHHnHpGLykDwEdvNow-30" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="267" y="282.00142857142856" as="sourcePoint" />
+            <mxPoint x="456.29775724106844" y="176.14428571428567" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="230.00142857142856" />
+              <mxPoint x="320" y="150.00142857142856" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-33" value="&lt;span style=&quot;text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Get Product Ids&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EtaHHnHpGLykDwEdvNow-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.075" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-10" value="Product API" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" parent="EtaHHnHpGLykDwEdvNow-35" vertex="1">
+          <mxGeometry x="770.0028975543783" y="120.00142857142856" width="117.45914285714287" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="EtaHHnHpGLykDwEdvNow-35" source="EtaHHnHpGLykDwEdvNow-1" target="EtaHHnHpGLykDwEdvNow-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="757.3537698636312" y="436.5728571428571" as="sourcePoint" />
+            <mxPoint x="824.9746421728839" y="383.7157142857143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-7" value="Other DB" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;" parent="EtaHHnHpGLykDwEdvNow-35" vertex="1">
+          <mxGeometry x="800.0027747097936" y="283.28285714285715" width="67.62087230925277" height="63.42857142857143" as="geometry" />
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.049;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="EtaHHnHpGLykDwEdvNow-35" source="EtaHHnHpGLykDwEdvNow-5" target="EtaHHnHpGLykDwEdvNow-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500.3944550884705" y="563.4300000000001" as="sourcePoint" />
+            <mxPoint x="568.0153273977234" y="510.5728571428571" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-36" value="ID READER" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-37.002242758931516" y="939.9971428571429" width="162.29009354220668" height="63.42857142857143" as="geometry" />
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-37" value="PRODUCT COMP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-40.00224275893163" y="1059.997142857143" width="162.29009354220668" height="63.42857142857143" as="geometry" />
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-38" value="PERSISTENCE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-142.0001555280063" y="1280.0014285714285" width="162.29009354220668" height="63.42857142857143" as="geometry" />
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-39" value="API CLIENT&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="67.99984447199364" y="1279.9985714285715" width="162.29009354220668" height="63.42857142857143" as="geometry" />
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EtaHHnHpGLykDwEdvNow-36" target="EtaHHnHpGLykDwEdvNow-37" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="970" as="sourcePoint" />
+            <mxPoint x="450" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EtaHHnHpGLykDwEdvNow-44" target="EtaHHnHpGLykDwEdvNow-38" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="1120" as="sourcePoint" />
+            <mxPoint x="450" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.579;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="EtaHHnHpGLykDwEdvNow-44" target="EtaHHnHpGLykDwEdvNow-39" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="1120" as="sourcePoint" />
+            <mxPoint x="450" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-58.860000000000014" y="1170" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EtaHHnHpGLykDwEdvNow-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EtaHHnHpGLykDwEdvNow-37" target="EtaHHnHpGLykDwEdvNow-44" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1070" as="sourcePoint" />
+            <mxPoint x="450" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
